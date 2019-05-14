@@ -86,7 +86,7 @@ class ConverterTests: XCTestCase {
   
   func testConverstionForZero() {
     let result = converter.convert(0)
-    XCTAssertEqual(result, "empty", "Conversion for 0 is incorrect")
+    XCTAssertEqual(result, "", "Conversion for 0 is incorrect")
   }
   
   func testConverstionFor3999() {
